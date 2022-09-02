@@ -93,7 +93,8 @@ body {
   visibility: hidden;
   position: relative;
   top: -4.5625rem;
-  right: 39.9375rem;
+  left: -94%;
+  transform: translateX(-50%);
   width: 25.625rem;
   height: 31.25rem;
   list-style: none;
