@@ -8,7 +8,7 @@
 
 body {
   width: 73.125rem;
-  font-family: "Roboto"; }
+  font-family: "Roboto", sans-serif; }
 
 .background {
   background: #a6c9ff;
@@ -94,7 +94,8 @@ body {
   position: relative;
   top: -4.5625rem;
   left: -91.3%;
-  transform: translateX(-52.4%);
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-52.4%);
   width: 25.625rem;
   height: 31.25rem;
   list-style: none;
@@ -106,7 +107,7 @@ body {
 .menu__item {
   display: block;
   color: #ffffff;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -119,7 +120,7 @@ body {
   left: 1.5rem;
   margin-bottom: 2.4375rem;
   color: #ffffff;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -177,7 +178,7 @@ body {
   border-radius: 1.5625rem;
   box-shadow: 0.125rem 0.3125rem 0.625rem #497957; }
   .button a {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -373,7 +374,7 @@ body {
       transition: 400ms; }
   .pop__up h1 {
     margin-top: 7.8125rem;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
