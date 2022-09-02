@@ -1,0 +1,333 @@
+* 
+	margin: 0 auto 
+*::after,
+*::before 
+	padding: 0 
+	margin: 0 
+body 
+	width: 73.125rem 
+	font-family: "Roboto" 
+.background 
+	background: #a6c9ff 
+	width: 73.125rem 
+	width: 100% 
+	color: #ffffff 
+.header__top 
+	background: #b47ff7 
+	display: flex 
+	font-weight: 500 
+	font-size: 1.75em 
+	line-height: 2.8125rem 
+	height: 9.25rem 
+	margin-bottom: 2.5rem 
+.header__top_link-one 
+	padding-top: 3.5rem 
+	margin: 0 0 0 9.8125rem 
+.header__top_link-two 
+	padding-top: 3.5rem 
+	margin: 0 0 0 3.8125rem 
+.header__top_link-three 
+	padding-top: 3.5rem 
+	margin: 0 0 0 3.875rem 
+.header__top_link-one:hover,
+.header__top_link-two:hover,
+.header__top_link-three:hover 
+	cursor: pointer 
+	text-decoration: underline 
+.hamburger-menu 
+	margin: 0.1875rem 0 0 13.1875rem 
+#menu__toggle 
+	opacity: 0 
+	&:checked 
+		& ~ .menu__btn 
+			& > span 
+				width: 3.0231rem 
+				transform: rotate(30deg) 
+				&::before 
+					top: 0 
+					transform: rotate(0) 
+				&::after 
+					top: 0 
+					width: 3.0231rem 
+					transform: rotate(120deg) 
+		& ~ .menu__box 
+			visibility: visible 
+.menu__btn 
+	display: flex 
+	align-items: center 
+	position: relative 
+	top: 1rem 
+	left: 13.5625rem 
+	width: 2.75rem 
+	height: 1.5625rem 
+	cursor: pointer 
+	z-index: 1 
+	& > span 
+		&::before 
+			content: "" 
+			top: -0.75rem 
+		&::after 
+			content: "" 
+			top: 0.75rem 
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after 
+	display: block 
+	position: absolute 
+	width: 2.7106rem 
+	height: 0.125rem 
+	background-color: #ffffff 
+	transition-duration: 0.25s 
+.menu__box 
+	display: block 
+	visibility: hidden 
+	position: relative 
+	top: -4.5625rem 
+	left: -40.625rem 
+	width: 25.625rem 
+	height: 31.25rem 
+	list-style: none 
+	background: #a6c9ff 
+	border: 0.0625rem solid #00ff4a 
+	transition-duration: 0.25s 
+	z-index: 1 
+.menu__item 
+	display: block 
+	color: #ffffff 
+	font-family: "Roboto" 
+	font-style: normal 
+	font-weight: 500 
+	font-size: 28px 
+	line-height: 45px 
+	text-decoration: none 
+.menu__item_one 
+	position: relative 
+	top: 1.9375rem 
+	left: 1.5rem 
+	margin-bottom: 2.4375rem 
+	color: #ffffff 
+	font-family: "Roboto" 
+	font-style: normal 
+	font-weight: 500 
+	font-size: 28px 
+	line-height: 45px 
+	text-decoration: none 
+.menu__item_two 
+	position: relative 
+	top: 1.9375rem 
+	left: 1.5rem 
+	margin-bottom: 2.4375rem 
+.menu__item_three 
+	position: relative 
+	top: 1.9375rem 
+	left: 1.5rem 
+	margin-bottom: 2.4375rem 
+.menu__item_four 
+	position: relative 
+	top: 1.9375rem 
+	left: 1.5rem 
+	margin-bottom: 2.4375rem 
+.header__bottom 
+	display: flex 
+	height: 11rem 
+	background: #7029cb 
+	margin-bottom: 4.8125rem 
+.slider__arrow-left 
+	position: relative 
+	top: 48px 
+	left: -36px 
+.header__text 
+	position: relative 
+	top: 59.4px 
+	left: 16.5px 
+	font-weight: 700 
+	font-size: 2.8125em 
+	line-height: 2.8125rem 
+.header__btn 
+	position: relative 
+	top: 3.25rem 
+	left: -7.3125rem 
+.button 
+	display: inline-block 
+	width: 16.375rem 
+	height: 3.625rem 
+	background: #ff4b4b 
+	text-align: center 
+	border-radius: 1.5625rem 
+	box-shadow: 0.125rem 0.3125rem 0.625rem #497957 
+	a 
+		font-family: "Roboto" 
+		font-style: normal 
+		font-weight: 400 
+		font-size: 24px 
+		line-height: 57px 
+		color: #ffffff 
+		text-decoration: none 
+		&:hover 
+			opacity: 0.5 
+			transition: 400ms 
+.slider__arrow-right 
+	position: relative 
+	top: 50px 
+	left: 37px 
+.slider__arrow-left:hover,
+.slider__arrow-right:hover 
+	cursor: pointer 
+.background__content 
+	display: inline-block 
+	position: relative 
+	top: -2.3125rem 
+	left: 33.9375rem 
+	font-weight: 600 
+	font-size: 1.875rem 
+	line-height: 2.8125rem 
+.first__container 
+	background: #beb9ff 
+	height: 26rem 
+	margin-bottom: 4.9375rem 
+.upper__container 
+	display: flex 
+	height: 12.375rem 
+	margin-bottom: 0.8125rem 
+.lower__container 
+	display: flex 
+	height: 12.375rem 
+	margin: 0 
+.one 
+	background: #3ade4b 
+	width: 24.5rem 
+	margin-right: 0.8125rem 
+	display: inline-block 
+	vertical-align: middle 
+.two 
+	background: #3ade4b 
+	margin: 0 
+	width: 47.8125rem 
+.three 
+	background: #3ade4b 
+	width: 62.187rem 
+	margin-right: 0.8125rem 
+.four 
+	background: #3ade4b 
+	width: 10.125rem 
+.test__text 
+	font-family: "Roboto", sans-serif 
+	font-style: normal 
+	font-weight: 400 
+	font-size: 3.3125em 
+	line-height: 3.875em 
+	text-align: center 
+	color: #ffffff 
+.background__content2 
+	display: inline-block 
+	position: relative 
+	top: -2.3125rem 
+	left: 33.875rem 
+	font-weight: 600 
+	font-size: 30px 
+	line-height: 45px 
+.second__container 
+	background: #d4ff5a 
+	width: 70rem 
+	height: 15.5rem 
+	border-radius: 1.875rem 
+	display: flex 
+	margin-bottom: 8.5625rem 
+.block 
+	background: #497957 
+	width: 12.375rem 
+	height: 12.375rem 
+	border: 0.125rem solid #00ff4a 
+	border-radius: 2.1875rem 
+	margin: 1.5625rem 1.25rem 1.5625rem 0 
+.block__one 
+	border: 0.125rem solid #00ff4a 
+	box-shadow: 0.125rem 0.3125rem 0.625rem #497957 
+	margin: 1.5625rem 1.25rem 1.5625rem 1.5625rem 
+.block__five 
+	margin: 1.5625rem 1.25rem 1.5625rem 0 
+.background__content3 
+	display: inline-block 
+	position: relative 
+	top: -99px 
+	left: 534px 
+	color: #f3f3f3 
+	font-weight: 500 
+	font-size: 28px 
+	line-height: 45px 
+.main__btn 
+	position: relative 
+	top: -2.5625rem 
+	left: 21.875rem 
+	box-shadow: none 
+.footer 
+	background: #d87ff7 
+	margin: 0 auto 
+	height: 6.25rem 
+.footer__content 
+	display: flex 
+	font-style: normal 
+	font-weight: 500 
+	font-size: 1.75em 
+	line-height: 2.8125rem 
+	height: 9.25rem 
+	margin-bottom: 2.5rem 
+.footer__link-one 
+	padding-top: 27px 
+	margin: 0 0 0 205px 
+.footer__link-two 
+	padding-top: 27px 
+	margin: 0 0 0 177px 
+.footer__link-three 
+	padding-top: 27px 
+	margin: 0 0 0 177px 
+.footer__link-four 
+	padding-top: 27px 
+	margin: 0 0 0 177px 
+.btn__text_pop-up 
+	position: relative 
+	top: 2.9375rem 
+	left: 3.375rem 
+	box-shadow: none 
+.pop__up 
+	display: flex 
+	flex-direction: column 
+	padding: 0.9375rem 
+	width: 25rem 
+	height: 25rem 
+	visibility: hidden 
+	opacity: 0 
+	position: fixed 
+	top: 20% 
+	left: 41% 
+	transition: opacity 500ms 
+	visibility: hidden 
+	background: #a6c9ff 
+	color: #ffffff 
+	z-index: 2 
+	&:target 
+		visibility: visible 
+		opacity: 0.8 
+	img 
+		width: 0.8125rem 
+		height: 1.4375rem 
+	a 
+		position: relative 
+		right: -11.25rem 
+		width: 2.6875rem 
+		height: 2.4375rem 
+		background: #497957 
+		border-radius: 0.3125rem 
+		border: none 
+		display: flex 
+		align-items: center 
+		&:hover 
+			opacity: 0.9 
+			transition: 400ms 
+	h1 
+		margin-top: 7.8125rem 
+		font-family: "Roboto" 
+		font-style: normal 
+		font-weight: 600 
+		font-size: 30px 
+		line-height: 45px 

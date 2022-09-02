@@ -1,0 +1,21 @@
+{
+  "name": "ls---test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "node-sass -w ./scss -o ./css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aliance-Rock/nodasoft-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aliance-Rock/nodasoft-test/issues"
+  },
+  "homepage": "https://github.com/Aliance-Rock/nodasoft-test#readme"
+}
